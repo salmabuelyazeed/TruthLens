@@ -16,8 +16,8 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 # Named clickbait_model / clickbait_tokenizer (not model / tokenizer) so this doesn't
 # collide with Person 2's globally-named `model` when both are imported into the same
 # notebook (see Notebook 3, Section 9 for why that collision mattered).
-clickbait_tokenizer = AutoTokenizer.from_pretrained("models/clickbait_model")
-clickbait_model = AutoModelForSequenceClassification.from_pretrained("models/clickbait_model")
+clickbait_tokenizer = AutoTokenizer.from_pretrained("salmabuelyazeed/truthlens-clickbait")
+clickbait_model = AutoModelForSequenceClassification.from_pretrained("salmabuelyazeed/truthlens-clickbait")
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
