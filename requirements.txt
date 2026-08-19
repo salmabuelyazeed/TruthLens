@@ -6,3 +6,8 @@ numpy
 scikit-learn 
 nltk 
 huggingface_hub
+emoji 
+trafilatura 
+newspaper3k 
+beautifulsoup4 
+requests
