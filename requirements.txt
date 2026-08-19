@@ -13,3 +13,4 @@ beautifulsoup4
 requests 
 sentence-transformers
 fpdf2
+torchvision
