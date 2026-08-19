@@ -1,5 +1,5 @@
 streamlit 
-transformers 
+--extra-index-url https://download.pytorch.org/whl/cpu 
 torch 
 pandas 
 numpy 
@@ -11,6 +11,6 @@ trafilatura
 newspaper3k 
 beautifulsoup4 
 requests 
-sentence-transformers
-fpdf2
+sentence-transformers 
+fpdf2 
 torchvision
