@@ -5,10 +5,10 @@ pandas
 numpy 
 scikit-learn 
 nltk 
-huggingface_hub
+huggingface_hub 
 emoji 
 trafilatura 
 newspaper3k 
 beautifulsoup4 
-requests
-sentence-transformers) 
+requests 
+sentence-transformers
